@@ -1,5 +1,5 @@
-
-# prewarm_cache.py - prewarm cache for Super50 V2.0
+# prewarm_cache.py
+# Prewarm price cache and metadata for Super50 V2.0
 import time, json, requests, yfinance as yf, pandas as pd
 from pathlib import Path
 from datetime import datetime, timedelta
